@@ -2,11 +2,11 @@
         <h2 class="text-white text-base font-semibold">Clima en ${t}</h2>
         <img src="http://openweathermap.org/img/wn/${n.icon}@2x.png" alt="icon">
         <h3 class="text-white text-3xl">${s}\xB0C</h3>
-        <div class="flex justify-center items-center gap-2">
+        <div class="flex justify-center items-center gap-4">
             <h4 class="text-white font-bold">Max</h4>
             <h4 class="text-white font-bold">Min</h4>
         </div>      
-        <div class="flex justify-center items-center gap-2">            
+        <div class="flex justify-center items-center gap-4">            
             <p class="text-white font-light">${b} \xB0C</p>
             <p class="text-white font-light">${h} \xB0C</p>
         </div>       
