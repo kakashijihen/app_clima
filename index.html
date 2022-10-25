@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Clima</title>
+  </head>
+  <body class="h-screen flex justify-center items-center bg-[#e7f1fb]">
+    <article class="overflow-hidden shadow-lg bg-gradient-to-tr from-[#056ab9] to-[#00d4ff] rounded-lg w-80">
+      <section class="block p-6 max-w-sm">
+        <p class="text-gray-900 text-xl text-center leading-tight font-bold mb-2">Seleccione la Ciudad y el Pais</p>
+        <div class="result flex flex-col justify-center items-center my-4">
+          
+        </div>
+        <div class="block pt-6">
+          <form action="#" method="post" class="get-clima flex justify-center flex-col">
+            <div class="mb-6 relative">
+              <input type="text" name="city" id="city" class="block peer
+              w-full px-2 py-2 rounded-md 
+              focus:outline-none focus:border-[#090979] focus:border-2 transition-colors duration-300 peer placeholder-transparent" placeholder="Seleccione Una Ciudad">
+              <label for="city" class="absolute left-2 -top-5 text-white text-sm transition-all peer-placeholder-shown:text-base 
+              peer-placeholder-shown:text-black
+              peer-placeholder-shown:top-2 peer-focus:-top-5 peer-focus:text-white peer-focus:text-sm ">Seleccione Una Ciudad</label>
+            </div>
+            <div class="mb-6">
+              <select name="paises" id="slctPaises" class="block
+              w-full rounded-md
+              px-2 py-2 text-base
+              focus:outline-none focus:border-[#090979] focus:border-2">
+                <option disabled selected value="">Seleccione el Pais</option>
+              </select>
+            </div>
+            <button type="submit" class="px-6 py-3 bg-blue-600 hover:bg-blue-400 text-white rounded-2xl my-1">Obtener Clima</button>
+        
+          </form>
+        </div>
+      </section>
+    </article>
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>
